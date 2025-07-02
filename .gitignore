@@ -1,0 +1,4 @@
+# ignore nix artifacts
+.direnv
+result
+result-*
