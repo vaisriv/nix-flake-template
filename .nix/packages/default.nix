@@ -10,7 +10,9 @@ pkgs.writeShellApplication {
 
     runtimeInputs = [];
 
-    text = ''
-        echo "hello world!"
-    '';
+    text =
+        # bash
+        ''
+            echo "hello world!"
+        '';
 }
