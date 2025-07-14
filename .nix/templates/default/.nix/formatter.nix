@@ -17,4 +17,14 @@ inputs.treefmt-nix.lib.mkWrapper pkgs {
             ];
         };
     };
+
+    # FIXME: set up formatter(s) required for the project
+
+    # md/js
+    programs.prettier = {
+        enable = true;
+        settings = {
+            tabWidth = 4;
+        };
+    };
 }
