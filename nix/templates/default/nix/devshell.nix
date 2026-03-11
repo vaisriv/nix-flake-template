@@ -11,8 +11,8 @@ perSystem.devshell.mkShell {
     '';
 
     # FIXME: fill in requirements for project
-    commands = [];
-    packages = with pkgs; [];
+    commands = [ ];
+    packages = with pkgs; [ ];
 
-    env = [];
+    env = [ ];
 }
