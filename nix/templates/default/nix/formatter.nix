@@ -7,6 +7,7 @@ inputs.treefmt-nix.lib.mkWrapper pkgs {
     programs.nixfmt = {
         enable = true;
         indent = 4;
+        strict = true;
     };
 
     # FIXME: set up formatter(s) required for the project

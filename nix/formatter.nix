@@ -1,8 +1,4 @@
-{
-    pkgs,
-    inputs,
-    ...
-}:
+{ pkgs, inputs, ... }:
 inputs.treefmt-nix.lib.mkWrapper pkgs {
     projectRootFile = "flake.nix";
 
@@ -11,5 +7,6 @@ inputs.treefmt-nix.lib.mkWrapper pkgs {
     programs.nixfmt = {
         enable = true;
         indent = 4;
+        strict = true;
     };
 }
