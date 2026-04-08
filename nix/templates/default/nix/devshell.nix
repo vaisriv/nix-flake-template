@@ -1,8 +1,4 @@
-{
-    pkgs,
-    perSystem,
-    ...
-}:
+{ pkgs, perSystem, ... }:
 perSystem.devshell.mkShell {
     name = "PLACEHOLDER";
     motd = ''
