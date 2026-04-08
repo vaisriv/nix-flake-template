@@ -5,7 +5,7 @@
 # *.[oa]
 # *~
 
-# ignore nix artifacts
+# nix
 .direnv
 result
 result-*
