@@ -1,10 +1,10 @@
 {
-    description = "PLACEHOLDER flake";
+    description = "nix-flake-template flake";
 
     inputs = {
         # nixpkgs
-        nixpkgs.url = "github:nixos/nixpkgs/release-25.11";
-        # nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
+        nixpkgs.url = "github:nixos/nixpkgs/release-26.05";
+        nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
 
         # flake tools (thanks numtide)
         blueprint = {
